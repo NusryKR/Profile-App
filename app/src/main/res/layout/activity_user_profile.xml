@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user_profile"
+    android:gravity="center_horizontal"
+    android:background="@drawable/signin_background">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="#fff"
+        android:contentDescription="@string/profileImage"
+        app:srcCompat="@drawable/profile_image" />
+
+
+    <EditText
+        android:id="@+id/edituserName"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:ems="10"
+        android:hint="@string/enter_user_fullname"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+
+        android:textColorHint="#514A4A"
+        android:drawableEnd="@drawable/ic_baseline_edit_24"/>
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textColorHint="#514A4A"
+        android:drawableEnd="@drawable/ic_baseline_edit_24"/>
+
+    <TextView
+        android:id="@+id/editBirthday"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:ems="10"
+        android:hint="@string/birthday"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textColorHint="#514A4A"
+        android:drawableRight="@drawable/ic_baseline_calendar_today_24"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="346dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:focusable="false"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:background="@drawable/my_button01"
+        android:textAlignment="center"
+        android:textColorHint="#514A4A" />
+
+
+
+    <EditText
+        android:id="@+id/changePwd"
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textColorHint="#514A4A"
+        android:textAlignment="center"
+        android:drawableEnd="@drawable/ic_baseline_edit_24"/>
+
+
+    <Button
+        android:id="@+id/profileSave"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/my_button"
+        android:text="@string/profileSave" />
+
+
+</LinearLayout>

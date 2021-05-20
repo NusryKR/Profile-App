@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/signin_background">
+
+
+    <TextView
+        android:id="@+id/logintextView"
+        android:layout_width="157dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/signu"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="40dp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/userNameSignup"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:ems="10"
+        android:hint="@string/enter_user_fullname"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="#514A4A" />
+
+    <EditText
+    android:id="@+id/address"
+    android:layout_width="349dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:autofillHints=""
+    android:background="@drawable/my_button01"
+    android:ems="10"
+    android:hint="@string/address"
+    android:textAlignment="center"
+    android:inputType="text"
+    android:textColor="@android:color/black"
+    android:textColorHint="#514A4A" />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:ems="10"
+        android:hint="@string/birthday"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textColorHint="#514A4A" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="346dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:background="@drawable/my_button01"
+        android:textColorHint="#514A4A" />
+
+
+
+    <EditText
+        android:id="@+id/pwdSignup"
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/my_button01"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHint="#514A4A" />
+
+
+
+    <Button
+        android:id="@+id/resgisterBtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_button"
+        android:text="@string/register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF9800"
+            android:text="@string/already_registered"/>
+
+        <TextView
+            android:id="@+id/Loginme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/login"
+            android:textColor="#FF9800"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

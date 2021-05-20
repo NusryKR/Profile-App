@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Xiteb App 01</string>
+    <string name="enter_user_fullname">  Full Name</string>
+    <string name="email">  Email</string>
+    <string name="password">  Password</string>
+    <string name="login">Login Me.</string>
+    <string name="already_registered">Already Registred!</string>
+    <string name="loginBtn">Login</string>
+    <string name="signup">Not a member? Sign up now.</string>
+    <string name="profilePicture">personpicture</string>
+    <string name="userName">Edit user Name</string>
+    <string name="Editemail">Edit Email Address</string>
+    <string name="status">Write your status</string>
+    <string name="editPassword">Change Password</string>
+    <string name="profileSave">Save Changes</string>
+    <string name="profileImage">TODO</string>
+    <string name="register">Register</string>
+    <string name="back">Back</string>
+    <string name="address">Address</string>
+    <string name="birthday">Choose Your Birthday</string>
+    <string name="log">Login</string>
+    <string name="signu">Sign Up</string>
+</resources>
